@@ -1,0 +1,142 @@
+body{
+  background-color: #3F3075;
+}
+
+/* DIV PRO HLAVIČKU */
+div.header{
+  width: 60%;
+  margin: 1% 20% 0 20%;
+  min-width: 60%;
+  background-color: #88839A;
+}
+
+/* OBSAH HLAVIČKY */
+div.title{
+  padding: 5% 0 6% 5%;
+  border: 1px solid #000000;
+}
+
+/* DIV SPOJUJÍCÍ CELOU STRÁNKU! */
+/* DIV SPOJUJÍCÍ CELOU STRÁNKU! */
+/* DIV SPOJUJÍCÍ CELOU STRÁNKU! */
+div.connect{
+  width: 60%;
+  min-width: 60%;
+  border-top: 2px solid #000000;
+  margin: 0% 20% 0 20%;
+  min-width: 60%;
+} 
+
+
+/* NAVIGACE */
+div.nav{
+  width: 75%;
+  min-width: 75%;
+  padding:0;
+  background-color: #605688;
+  float: left;
+}
+
+/* DIV PRO AUTENTIZACI */
+div.div_aut{
+  width: 25%;
+  min-width: 25%;
+  background-color: #605688;
+  float: right;
+  word-wrap: break-word;
+}
+
+/* OBSAH AUTENTIZACE */
+div.aut{
+  padding: 2px 0 50px 0;
+}
+
+/* DIV PRO OBSAH */
+div.div_cont{
+  width: 75%;
+  min-width: 75%;
+  background-color: #88939a;
+  word-wrap: break-word;
+  float: left;
+}
+
+/* OBSAH */
+div.cont{
+  padding: 1% 2% 1% 2%;
+}
+
+
+/* DIV NAD OBSAHEM */
+div.div_upcont{
+  width: 75%;
+  min-width: 75%;
+  background-color: #88939a;
+  word-wrap: break-word;
+  float: left;
+}
+
+/* OBSAH DIVU NAD OBSAHEM */
+div.upcont{
+  border: 0px solid #000000;
+}
+
+/* DIV PRO STATISTIKU */
+div.div_stat{
+  width: 25%;
+  height: 500px;
+  min-width: 25%;
+  background-color: #88939a;
+  word-wrap: break-word;
+  float: right;
+}
+
+/* STATISTIKA */
+div.stat{
+  padding: 1% 2% 1% 2%;
+}
+
+/* DIV PRO ZÁHLAVÍ */
+div.div_footer{
+  width: 100%;
+  min-width: 100%;
+  background-color: #605688;
+  margin: 0 0 0 0;
+  float: left;
+  word-wrap: break-word;
+}
+
+/* OBSAH ZÁHLAVÍ */
+div.footer{
+  padding: 1% 2% 1% 5%;
+  border: 1px solid #000000;
+}
+
+
+/* ODKAZY */
+ul{
+  list-style-type:none;
+  margin:0 0 0 0;
+  padding:1px 1px 1px 1px;
+  overflow:hidden;
+  background-color:#605688;
+}
+
+li{
+  float:left;
+}
+
+li a{
+  display:block;
+  color:white;
+  text-align:center;
+  padding:5px 25px 5px 25px;
+  text-decoration:none;
+}
+li a:hover{
+  background-color:#150550;
+}
+
+p a{
+  text-decoration:none;
+  padding: 50px;
+}
